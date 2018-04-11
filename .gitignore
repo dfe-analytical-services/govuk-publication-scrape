@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+Outputs/*
+!Outputs/README.md
+Publication
+packrat/lib*/
+report.html

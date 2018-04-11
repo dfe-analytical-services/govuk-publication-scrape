@@ -1,4 +1,4 @@
-# Supply Index
+# UK Government Publications
 
 ## Backgroud 
 
@@ -18,7 +18,7 @@ The outputs can be found in the Outputs folder. To re-run the code simply run `r
 
 ## Opening the Project
 
-To open the R Project double click the Supply Index Rproj file. 
+To open the R Project double click the gov-publication-webscrape Rproj file. 
 
 This project uses [Packrat](https://rstudio.github.io/packrat/) for dependency management. When you first open the project Packrat will install all the required packages in the local folder using the same versions as used for development. This ensures that all of the functions used will work over time and is only done once. 
 
@@ -56,9 +56,6 @@ This folder contains all of the outputs of the analysis. Currently this is a htm
 ### Packrat
 
 Packrat is for dependency management to ensure that all package versions used are the same as those at the time the project was created.
-
-
-- **test_supply_index.R** - This test compares runs the R project on the data that would've been used for the 2015 model and compares to the output from last years supply index. The output is a png in the tests/outputs folder. Due to the changes in methodology these do not show equality between the different years but have been agreed that the differences are feasible with changes in methodology. 
 
 
 ## Notes on Updating

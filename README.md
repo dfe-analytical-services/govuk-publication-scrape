@@ -22,7 +22,7 @@ To open the R Project double click the gov-publication-webscrape Rproj file.
 
 This project uses [Packrat](https://rstudio.github.io/packrat/) for dependency management. When you first open the project Packrat will install all the required packages in the local folder using the same versions as used for development. This ensures that all of the functions used will work over time and is only done once. 
 
-##Project structure
+## Project structure
 
 The folder structure is as follows:
 
